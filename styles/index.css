@@ -54,14 +54,12 @@ header {
 /* main section styles */
 main {
     padding-right: 240px;
-    padding-left: 540px;
+    padding-left: 240px;
 }
 
 .featured_flower {
     text-align: center;
-}
-#flower_title{
-    padding-left: 340px;
+
 }
 
 .common_title {
@@ -136,11 +134,43 @@ figcaption {
     height: 370px;
     padding: 117px 47px 51px 47px;
 }
-.flower3{
+
+.flower3 {
     width: 314px;
-height: 471px;
-padding: 67px 75px 0px 75px;
+    height: 471px;
+    padding: 67px 75px 0px 75px;
 }
-figcaption{
+
+figcaption {
     text-decoration: none;
+}
+
+.info {
+    display: flex;
+    width: 1440px;
+    height: 320px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin-top: 130px;
+    padding: 90px 175px 0px 175px;
+    gap: 270px;
+}
+
+.info_pic {
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.para_style2 {
+    /* color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 35px;
+    145.833% */
 }
