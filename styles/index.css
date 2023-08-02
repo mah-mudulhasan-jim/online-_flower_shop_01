@@ -53,14 +53,19 @@ header {
 
 /* main section styles */
 main {
-    padding-right: 240px;
-    padding-left: 240px;
+    /* padding-right: 240px;
+    padding-left: 240px; */
 }
 
 .featured_flower {
     text-align: center;
     width: 1440px;
-
+    padding-right: 240px;
+    padding-left: 240px;
+}
+.info{
+    padding-right: 240px;
+    padding-left: 240px;
 }
 
 .common_title {
@@ -176,11 +181,17 @@ figcaption {
 }
 
 .deal {
+    margin: 0;
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    padding: 230px;
     margin-top: 130px;
     width: 1920px;
-    height: 850px;
+    /* height: 850px; */
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
+}
+.hot_deal{
+    text-align: center;
 }
