@@ -76,6 +76,7 @@ main {
 }
 
 #para2 {
+    /* text-align: center; */
     margin-left: 580px;
     width: 594px;
     color: rgba(39, 39, 39, 0.60);
@@ -148,13 +149,15 @@ figcaption {
 
 .info {
     display: flex;
+    justify-content: space-around;
+    align-items: center;
     width: 1440px;
     height: 320px;
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
     margin-top: 130px;
     padding: 90px 175px 0px 175px;
-    gap: 270px;
+    /* gap: 270px; */
 }
 
 .info_pic {
@@ -187,4 +190,23 @@ figcaption {
 }
 .hot_deal{
     text-align: center;
+}
+
+/* instagram section styles */
+.instagram{
+    width: 1815px;
+    display: block;
+    text-align: center;
+    margin-left: 240px;
+    /* margin-right: 240px; */
+}
+.flower_container2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 130px;
+}
+.last_main{
+    background-image: url(../Flower_Asset/Rectangle\ 9.png);
+    height: 450px;
 }
